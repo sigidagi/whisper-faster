@@ -1,0 +1,9 @@
+[Unit]
+Description=STT - Transcriptor service
+
+[Service]
+WorkingDirectory=/home/khadas/dev/whisper-faster
+ExecStart=/home/khadas/dev/whisper-faster/.venv/bin/python start_transcriptor.py 
+
+[Install]
+WantedBy=default.target
