@@ -1,0 +1,11 @@
+av==10.*
+ctranslate2>=3.17,<4
+huggingface_hub>=0.13
+tokenizers==0.13.*
+onnxruntime>=1.14,<2
+uvicorn
+asyncio
+python-multipart
+fastapi==0.95.*
+pydantic==1.9.2
+faster-whisper
