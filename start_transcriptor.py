@@ -57,4 +57,4 @@ async def transcript(transcript_id):
 
 
 if __name__ == "__main__":
-    uvicorn.run("start_transcriptor:app", port=8006, log_level="info")
+    uvicorn.run("start_transcriptor:app", host='0.0.0.0', port=8006, log_level="info")
